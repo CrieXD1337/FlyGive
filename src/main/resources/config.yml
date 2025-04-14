@@ -1,0 +1,10 @@
+use: "&7> &cUsage: &e/flygive <player> [true/false]"
+no-found: "&7> &cPlayer &e{nick} &cnot found!"
+true-fly: "&7> &fSuccessfully &aenabled&f fly mode to player &e{nick}"
+false-fly: "&7> &fSuccessfully &cdisabled&f fly mode to player &e{nick}"
+
+# Whether to send players notifications that their fly mode has been turned on or off.
+is-use-messages-for-players: true
+
+message-true: "&7 &fYour flight mode has been &cdisabled &fby another player."
+message-false: "&fYour flight mode has been &cdisabled &fby another player."
