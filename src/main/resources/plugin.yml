@@ -1,0 +1,12 @@
+name: FlyGive
+main: ru.rexlite.Loader
+version: "1.0"
+api: ["1.1.0", "1.0.9"]
+author: "Criex"
+commands:
+  flygive:
+    description: "Enable/disable fly mode to specific player"
+    permission: "fly.give"
+permissions:
+  fly.give:
+    default: op
