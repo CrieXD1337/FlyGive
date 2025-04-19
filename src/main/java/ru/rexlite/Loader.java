@@ -15,6 +15,7 @@ public class Loader extends PluginBase implements Listener {
     public void onEnable() {
         this.getServer().getPluginManager().registerEvents(this, this);
         this.saveResource("config.yml");
+        this.getLogger().info(TextFormat.BLUE + "FlyGive v1.0 " + TextFormat.DARK_AQUA + "Enabled!");
     }
 
     public boolean onCommand(CommandSender sender, Command cmd, String arg, String[] args) {
