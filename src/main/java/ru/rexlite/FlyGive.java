@@ -8,8 +8,8 @@ import cn.nukkit.utils.Config;
 import cn.nukkit.utils.TextFormat;
 import java.io.File;
 
-public class Loader extends PluginBase implements Listener {
-    public Loader() {
+public class FlyGive extends PluginBase implements Listener {
+    public FlyGive() {
     }
 
     public void onEnable() {
